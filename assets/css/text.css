@@ -1,0 +1,42 @@
+.btn-success{
+    color: #fff;
+    background-color: #00d37e;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: 2px solid#00d787;
+    text-transform: uppercase;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: #00d37e;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: 2px solid#00d787;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7b8491;
+    margin-bottom: 15px;
+    transition: .3s;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product-bg-1{background-image: url(../images/model-1.png); }
+.product-bg-2{background-image: url(../images/model-3.png); height: 200px;}
+.product-bg-3{background-image: url(../images/model-2.png);}
+.product-bg-4{background-image: url(../images/model-4.png);}
+.product-bg-5{background-image: url(../images/model-5.png);}
+.product-bg-6{background-image: url(../images/model-6.png);}
+.product-bg-7{background-image: url(../images/model-7.png);}
+.product-bg-8{background-image: url(../images/model-8.png);}
+.product-bg-9{background-image: url(../images/model-9.png);}
+.product-bg-10{background-image: url(../images/model-10.png);}
+

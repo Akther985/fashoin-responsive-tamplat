@@ -1,0 +1,168 @@
+/*medium layout1288px*/
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .single-product-items {
+        height: 250px; 
+        margin-bottom: 15px;       
+    }
+    .single-product-items:nth-child(2) {
+        height: 520px; 
+        margin-bottom: 15px;       
+    }
+    .big-menu li  {
+        font-size: 36px;        
+    }
+}
+
+/*tablet layout768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .slider-text-tablecell {       
+        top: 28%;
+    }
+    .slider-text-tablecell p {
+        font-size: 62px;
+        line-height: 80px;
+        font-family: codelight, sans-serif;
+        color: #e84f88;
+    }
+    .big-menu li  {
+        font-size: 30px;        
+    }    
+    .single-product-items {       
+        width: 31.333%; 
+        height: 250px; 
+        margin-bottom: 15px;            
+    }
+    .single-product-items:nth-child(2) {
+        width: 64.333%; 
+        height: 520px;
+        margin-bottom: 15px;     
+    }
+    .single-product-items:nth-child(9) {
+        width: 64%;
+    }
+    .single-product-items:nth-child(4) {
+        width: 64%;
+    }       
+    .brand-images img {
+        width: 105px;
+        height: 60px;
+    }
+    .footer-left ul {        
+        justify-content: center;
+    }
+    .footer-left {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footer-right {  
+       text-align: center;
+    }
+}
+/*Mobile layout768px*/
+@media only screen and (max-width: 767px){
+    .header-top-area {
+        position: relative;
+        z-index: 98;
+        background-color: #ddd;
+    }
+    .header-right {
+        text-align: right;
+        display: none;
+    }
+    .header-left ul{
+        display: none;
+    }
+    .slider-text-tablecell p {
+        font-size: 32px;
+        line-height: 30px;
+        font-family: codelight, sans-serif;
+        color: #e84f88;
+    }
+    
+    .big-menu li {
+        font-size: 18px;
+        width: 25%;        
+    }
+    .big-menu li a {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        color: #cdc3c3;
+        padding: 26px 5px 12px;
+    }
+    .big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+        width: 25%;
+    }
+    .big-menu li:nth-child(2) a {
+        display: block;
+        text-align: center;
+        color: #e84f88;
+        font-family: codebold, sans-serif;
+        font-weight: 600;
+    }
+
+    .single-product-items,.single-product-items:nth-child(2),
+    .single-product-items:nth-child(4), .single-product-items:nth-child(9) {       
+        width: 100%; 
+               
+    }
+    .promo-content {
+        padding: 22px 10px 10px 10px;
+    } 
+    .promo-title h2 {
+        font-size: 28px;
+        margin: 0 0 5px;
+        font-family: codelight;
+        line-height: 42px;
+    } 
+    .promo-title span.year-text {        
+        font-size: 60px;  
+    }
+    .boxed-btn {
+        background-color: #51abc8;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        display: block;
+    }
+    .owl-dots {
+        position: relative;
+        top: auto;
+        right: auto;
+        text-align: center;
+        bottom: 30px;        
+    }
+    .owl-carousel button.owl-dot {       
+        display: inline-block;        
+        margin: 5px;        
+    }
+    .footer-left ul {        
+        justify-content: center;
+    }
+    .footer-left {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .social-links {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .email-subscribe-form input[ type=email] {
+        background: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        min-width: 285px;
+        margin-bottom: 10px;
+    }
+    .footer-right {
+        color: #7b8491;
+        text-align: center;
+    }
+}
+/*wide mobile layout: 488px*/
+@media only screen and (min-width: 480px) and (max-width:767px){
+    
+}
+    
